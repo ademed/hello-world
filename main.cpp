@@ -29,5 +29,5 @@ int main1()
     ::operator delete(x, std::align_val_t{ alignment });
     ::operator delete(y, std::align_val_t{ alignment });
   
-    int m = 10; double k = 6;
+    int m = 10; 
 }
